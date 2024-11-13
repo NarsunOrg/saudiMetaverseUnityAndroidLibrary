@@ -6,7 +6,8 @@ plugins {
 android {
     namespace = "com.demo.unitykotlindemo2"
     compileSdk = 34
-
+    //ndkPath = "23.1.7779620"
+    ndkPath = "/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/AndroidPlayer/NDK"
     defaultConfig {
         applicationId = "com.demo.unitykotlindemo2"
         minSdk = 24
@@ -74,5 +75,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    //implementation(project(":unityLibrary"))
+    implementation(project(":saudiMetaverseUnity"))
 }

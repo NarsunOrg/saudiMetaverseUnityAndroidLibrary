@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "saudiMetaverseUnityAndroidLibrary"
-include(":app", ":unityLibrary")
+include(":app", ":saudiMetaverseUnity")
