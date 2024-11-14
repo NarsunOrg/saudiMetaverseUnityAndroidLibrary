@@ -136,7 +136,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.mriaz764'
             artifactId = 'com-narsun-saudiMetaverseUnity'
-            version = "1.1"
+            version = "1.1.1"
             pom {
                 description = 'Second release'
             }

@@ -16,7 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.demo.unitykotlindemo2.ui.theme.UnityKotlinDemo2Theme
-//import com.unity3d.player.UnityPlayerActivity
+import com.unity3d.player.UnityPlayerActivity
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,8 +44,8 @@ class MainActivity : ComponentActivity() {
 
 
     private fun callGamePlay() {
-      //  val intent = Intent(this, UnityPlayerActivity::class.java)
-       // startActivity(intent);
+        val intent = Intent(this, UnityPlayerActivity::class.java)
+        startActivity(intent);
     }
 
     @Composable
