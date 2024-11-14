@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -15,7 +16,7 @@ import android.os.Process;
 public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecycleEvents
 {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
-
+    public static IUnityMessageListener iUnityMessageListener;
     // Override this in your custom UnityPlayerActivity to tweak the command line arguments passed to the Unity Android Player
     // The command line arguments are passed as a string, separated by spaces
     // UnityPlayerActivity calls this from 'onCreate'
@@ -40,6 +41,16 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
         mUnityPlayer = new UnityPlayer(this, this);
         setContentView(mUnityPlayer);
         mUnityPlayer.requestFocus();
+    }
+    public static void setiUnityMessageListener(IUnityMessageListener iUnityMessageListener) {
+        UnityPlayerActivity.iUnityMessageListener = iUnityMessageListener;
+    }
+
+    public void OnUnityMessageReceived(String msg){
+        Log.e("abc:", "UnityPlayerActivity OnUnityMessageReceived: "+msg);
+        if(iUnityMessageListener!=null){
+            iUnityMessageListener.onUnityMessageReceived(msg);
+        }
     }
 
     // When Unity player unloaded move task to background

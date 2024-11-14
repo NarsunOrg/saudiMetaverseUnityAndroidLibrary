@@ -1,0 +1,191 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CompressedMeshLoader_Start_mFF2E1CC3E9C99B6E0F82CC3AD77B637C2455F3B0 (void);
+extern void CompressedMeshLoader_Fix_m03CB192078D49FAEE1C6C0694FAB58C458DB980B (void);
+extern void CompressedMeshLoader_GetMeshData_mAE6F45F1FC31543D14D29332671CD6AC0019A479 (void);
+extern void CompressedMeshLoader_GetIndexies_m69A354853534948AFFCF7ED9F743AD5BCABE779F (void);
+extern void CompressedMeshLoader_Combine_m27AB5605E1665164BC35FABEB0E2BC61C7394529 (void);
+extern void CompressedMeshLoader__ctor_m364EACCEE66055D140322C3707076629883575D2 (void);
+extern void TerrainConvertInfo__ctor_mFB8735B68A94E3F8C7620B16D3023512CCB3E2FE (void);
+extern void TerrainConvertInfo__ctor_m25143996DA4F375690725BFF7B884603D95A3535 (void);
+extern void TerrainConvertInfo_Reset_m33D17DB183B77F1912C837A24D5BD489E5C45B29 (void);
+extern void TerrainConvertInfo_GetChunkCount_mD6CC2B383FDA836FDD37B3B48FD8F82E28C19063 (void);
+extern void TerrainConvertInfo_GetVertexCountPerChunk_mF6B86EEC8CF6C71D24E570763057478FE478F6F9 (void);
+extern void TerrainConvertInfo_GetVertexCountTotal_m97CB4AFEAE7F68137170F793FF11FE5DAC6573C4 (void);
+extern void TerrainConvertInfo_GetTriangleCountPerChunk_m43D15F98EDC732CBE72CABCD7A2856A078E8C2FF (void);
+extern void TerrainConvertInfo_GetTriangleCountTotal_m210FF6038351DEA689E0C7D794C44998E652CB3D (void);
+extern void TerrainToMeshConverter_Convert_m8A37EF25CFD3F9878F1BABC03A66E80D9E00266C (void);
+extern void TerrainToMeshConverter_ExtractSplatmaps_mA3EFD694E307DE29C001670C6CEBC26ADECE55BB (void);
+extern void TerrainToMeshConverter_ExtractSplatmaps_m0374535F98B9720BB1E2884201B8D8842CD735BE (void);
+extern void TerrainToMeshConverter_ExtractHolesmap_m52A8AFF6BFA767F733223E961ABDE2119BF0EFEB (void);
+extern void TerrainToMeshConverter_ExtractHolesmap_m75B6A3A055FD5B16984D6E5DD6C15A1FEF3DB87F (void);
+extern void TerrainToMeshConverter_ExtractBasemaps_mEBDF984A6BF9D8EC85ABF0FDF2D9A7027F4FED55 (void);
+extern void TerrainToMeshConverter_ExtractBasemap_m385F298CB909E6AB7C0FB1D3877B26866AF8F3A7 (void);
+extern void TerrainToMeshConverter_ExtractHeightmap_mD71042540E9B77D3B04827F4B6CD56BA33EE39B3 (void);
+extern void TerrainToMeshConverter_ExtractHeightmap_mB747D580C0F4BAFC1A6B4B64AB53ED1215B8EE30 (void);
+extern void TerrainToMeshConverter_ExtractTexturesInfo_m56AB39E9B6AD743592F187EAE2A3EA827EA79EBB (void);
+extern void TerrainToMeshConverter_ExtractTrees_mE87AE0AA4FBDC64B5B3EE106D35C28362E3EEB57 (void);
+extern void TerrainToMeshConverter_TerrainToOBJ_m92D0DE687802A0EAD263268D3A346883FD6F6A29 (void);
+extern void TerrainToMeshConverter_GenerateTerrainOBJ_m39D8EF8ED84134DDB615A055C216AC3F0B3BFAA2 (void);
+extern void TerrainToMeshConverter_GenerateTerrainBaseChunks_m8F805CFFC5B087C619E46746492E0C180782D89E (void);
+extern void TerrainToMeshConverter_GenerateTerrainMainChunks_mEC78207E0925FC5BAC882673CFD0FCD01AD25A44 (void);
+extern void TerrainToMeshConverter_GenerateTerrain_mA5AA623B54893CFD3735DFFF64C6032B525E0F20 (void);
+extern void TerrainToMeshConverter_AddSkirt_mA461756B9E0B28EF818F961AF1D3D59D7915127E (void);
+extern void TerrainToMeshConverter_GenerateNormals_m017762E446405F9EA0A0991C669950579514D0C8 (void);
+extern void TerrainToMeshConverter_GenerateTangents_mD98240D042EB200A19307E4F73FA748C98B5E4CA (void);
+extern void TerrainToMeshConverter_Remap_m649C48A5904AE65F6E6646F62F4786D7AC1C01B3 (void);
+extern void TerrainToMeshConverter_NormalizeUV_m242122C8B24863869D87ED3C1D13A3EB0601CD78 (void);
+extern void TerrainToMeshConverter_ResizePro_mA879B9BFDFDE88E9754121ECC2FA7D4D312E9266 (void);
+extern void TerrainToMeshConverter_Blit_m8C231D93935473B183D412FAD4C44432333B7FE8 (void);
+extern void TerrainToMeshConverter_Blit_mEEE3B1AA11BD74C6FF6809D63CAA6DFA4FC60560 (void);
+extern void TerrainToMeshConverter_CreateRenderTexture_mF67E567971FDE9A61183C1F94E8F0232E741D4B4 (void);
+extern void TerrainToMeshConverter_CreateTemporaryRenderTexture_m5BB9F7749A35A375504B1C5222AB2707B4875FC1 (void);
+extern void TerrainToMeshConverter_RenderTextureToTexture2D_m8103DFD1D694A32DA2C3884F55DA2882F02B19B9 (void);
+extern void TerrainToMeshConverter_Get2x2Texture2D_mD54C5CF7F43FFD200F764F85148DACCBDC032654 (void);
+extern void TerrainToMeshConverter_GetBlackTexture_m9C900262AAB6EBA5CDDD7DB7173F25BF905FED45 (void);
+extern void TerrainToMeshConverter__cctor_mD5C4791919EB9CF6638D9B7F402E4B8A8481F1A4 (void);
+extern void ProgressFunction__ctor_m7106DDB7413E7080176769A3FFB476B0804BEA74 (void);
+extern void ProgressFunction_Invoke_m7C8BCE16C75DA8E6142CB0839D3CF15ED0242CFB (void);
+extern void ProgressFunction_BeginInvoke_mF697BD9CE61876DDA6D7B16D26951806C12E9891 (void);
+extern void ProgressFunction_EndInvoke_m3896432F5E4DAC96BBA07CF2FA599EC6D53B50D7 (void);
+extern void PreMesh_Clear_m03D6E67111D9BF088E63E1B9157C29518275DFF5 (void);
+extern void PreMesh__ctor_mCFC51B5015A64C2EFC55D3EB7A09645F8A2DE0B6 (void);
+static Il2CppMethodPointer s_methodPointers[50] = 
+{
+	CompressedMeshLoader_Start_mFF2E1CC3E9C99B6E0F82CC3AD77B637C2455F3B0,
+	CompressedMeshLoader_Fix_m03CB192078D49FAEE1C6C0694FAB58C458DB980B,
+	CompressedMeshLoader_GetMeshData_mAE6F45F1FC31543D14D29332671CD6AC0019A479,
+	CompressedMeshLoader_GetIndexies_m69A354853534948AFFCF7ED9F743AD5BCABE779F,
+	CompressedMeshLoader_Combine_m27AB5605E1665164BC35FABEB0E2BC61C7394529,
+	CompressedMeshLoader__ctor_m364EACCEE66055D140322C3707076629883575D2,
+	TerrainConvertInfo__ctor_mFB8735B68A94E3F8C7620B16D3023512CCB3E2FE,
+	TerrainConvertInfo__ctor_m25143996DA4F375690725BFF7B884603D95A3535,
+	TerrainConvertInfo_Reset_m33D17DB183B77F1912C837A24D5BD489E5C45B29,
+	TerrainConvertInfo_GetChunkCount_mD6CC2B383FDA836FDD37B3B48FD8F82E28C19063,
+	TerrainConvertInfo_GetVertexCountPerChunk_mF6B86EEC8CF6C71D24E570763057478FE478F6F9,
+	TerrainConvertInfo_GetVertexCountTotal_m97CB4AFEAE7F68137170F793FF11FE5DAC6573C4,
+	TerrainConvertInfo_GetTriangleCountPerChunk_m43D15F98EDC732CBE72CABCD7A2856A078E8C2FF,
+	TerrainConvertInfo_GetTriangleCountTotal_m210FF6038351DEA689E0C7D794C44998E652CB3D,
+	TerrainToMeshConverter_Convert_m8A37EF25CFD3F9878F1BABC03A66E80D9E00266C,
+	TerrainToMeshConverter_ExtractSplatmaps_mA3EFD694E307DE29C001670C6CEBC26ADECE55BB,
+	TerrainToMeshConverter_ExtractSplatmaps_m0374535F98B9720BB1E2884201B8D8842CD735BE,
+	TerrainToMeshConverter_ExtractHolesmap_m52A8AFF6BFA767F733223E961ABDE2119BF0EFEB,
+	TerrainToMeshConverter_ExtractHolesmap_m75B6A3A055FD5B16984D6E5DD6C15A1FEF3DB87F,
+	TerrainToMeshConverter_ExtractBasemaps_mEBDF984A6BF9D8EC85ABF0FDF2D9A7027F4FED55,
+	TerrainToMeshConverter_ExtractBasemap_m385F298CB909E6AB7C0FB1D3877B26866AF8F3A7,
+	TerrainToMeshConverter_ExtractHeightmap_mD71042540E9B77D3B04827F4B6CD56BA33EE39B3,
+	TerrainToMeshConverter_ExtractHeightmap_mB747D580C0F4BAFC1A6B4B64AB53ED1215B8EE30,
+	TerrainToMeshConverter_ExtractTexturesInfo_m56AB39E9B6AD743592F187EAE2A3EA827EA79EBB,
+	TerrainToMeshConverter_ExtractTrees_mE87AE0AA4FBDC64B5B3EE106D35C28362E3EEB57,
+	TerrainToMeshConverter_TerrainToOBJ_m92D0DE687802A0EAD263268D3A346883FD6F6A29,
+	TerrainToMeshConverter_GenerateTerrainOBJ_m39D8EF8ED84134DDB615A055C216AC3F0B3BFAA2,
+	TerrainToMeshConverter_GenerateTerrainBaseChunks_m8F805CFFC5B087C619E46746492E0C180782D89E,
+	TerrainToMeshConverter_GenerateTerrainMainChunks_mEC78207E0925FC5BAC882673CFD0FCD01AD25A44,
+	TerrainToMeshConverter_GenerateTerrain_mA5AA623B54893CFD3735DFFF64C6032B525E0F20,
+	TerrainToMeshConverter_AddSkirt_mA461756B9E0B28EF818F961AF1D3D59D7915127E,
+	TerrainToMeshConverter_GenerateNormals_m017762E446405F9EA0A0991C669950579514D0C8,
+	TerrainToMeshConverter_GenerateTangents_mD98240D042EB200A19307E4F73FA748C98B5E4CA,
+	TerrainToMeshConverter_Remap_m649C48A5904AE65F6E6646F62F4786D7AC1C01B3,
+	TerrainToMeshConverter_NormalizeUV_m242122C8B24863869D87ED3C1D13A3EB0601CD78,
+	TerrainToMeshConverter_ResizePro_mA879B9BFDFDE88E9754121ECC2FA7D4D312E9266,
+	TerrainToMeshConverter_Blit_m8C231D93935473B183D412FAD4C44432333B7FE8,
+	TerrainToMeshConverter_Blit_mEEE3B1AA11BD74C6FF6809D63CAA6DFA4FC60560,
+	TerrainToMeshConverter_CreateRenderTexture_mF67E567971FDE9A61183C1F94E8F0232E741D4B4,
+	TerrainToMeshConverter_CreateTemporaryRenderTexture_m5BB9F7749A35A375504B1C5222AB2707B4875FC1,
+	TerrainToMeshConverter_RenderTextureToTexture2D_m8103DFD1D694A32DA2C3884F55DA2882F02B19B9,
+	TerrainToMeshConverter_Get2x2Texture2D_mD54C5CF7F43FFD200F764F85148DACCBDC032654,
+	TerrainToMeshConverter_GetBlackTexture_m9C900262AAB6EBA5CDDD7DB7173F25BF905FED45,
+	TerrainToMeshConverter__cctor_mD5C4791919EB9CF6638D9B7F402E4B8A8481F1A4,
+	ProgressFunction__ctor_m7106DDB7413E7080176769A3FFB476B0804BEA74,
+	ProgressFunction_Invoke_m7C8BCE16C75DA8E6142CB0839D3CF15ED0242CFB,
+	ProgressFunction_BeginInvoke_mF697BD9CE61876DDA6D7B16D26951806C12E9891,
+	ProgressFunction_EndInvoke_m3896432F5E4DAC96BBA07CF2FA599EC6D53B50D7,
+	PreMesh_Clear_m03D6E67111D9BF088E63E1B9157C29518275DFF5,
+	PreMesh__ctor_mCFC51B5015A64C2EFC55D3EB7A09645F8A2DE0B6,
+};
+static const int32_t s_InvokerIndices[50] = 
+{
+	11079,
+	8826,
+	250,
+	7890,
+	2513,
+	11079,
+	11079,
+	8826,
+	11079,
+	10864,
+	10864,
+	10864,
+	10864,
+	10864,
+	13031,
+	16971,
+	13855,
+	16971,
+	13855,
+	11527,
+	11803,
+	15161,
+	13018,
+	11586,
+	16971,
+	13855,
+	11629,
+	17301,
+	11722,
+	18195,
+	17318,
+	14322,
+	12500,
+	12228,
+	16971,
+	11804,
+	14323,
+	12496,
+	13825,
+	13825,
+	14308,
+	13813,
+	15151,
+	18253,
+	5136,
+	5157,
+	1459,
+	8826,
+	11079,
+	11079,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_VacuumShaders_TerrainToMesh_CodeGenModule;
+const Il2CppCodeGenModule g_VacuumShaders_TerrainToMesh_CodeGenModule = 
+{
+	"VacuumShaders.TerrainToMesh.dll",
+	50,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

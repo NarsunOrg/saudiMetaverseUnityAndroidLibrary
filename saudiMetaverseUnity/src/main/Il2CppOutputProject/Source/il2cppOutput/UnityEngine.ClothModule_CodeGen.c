@@ -1,0 +1,190 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ClothSphereColliderPair_get_first_m946C5B40948A5D91176D9498D36F160FC8CBA69D (void);
+extern void ClothSphereColliderPair_set_first_m0A1B7959D953AE101AFE5E2D05816A00AD3FE75E (void);
+extern void ClothSphereColliderPair_set_second_mD06B1045D859C8E0D1E04C5B43DFD0C9D6AA91E3 (void);
+extern void ClothSphereColliderPair__ctor_m403496CF4C36C6BFA621F66E0CECC96100A80673 (void);
+extern void Cloth_get_coefficients_mFD7EB4A4A5B997FDE2787AEF924C4AD78510AB6C (void);
+extern void Cloth_set_coefficients_m3F62405E90C802A2B9761A4E131CD5C8412E029A (void);
+extern void Cloth_get_capsuleColliders_m34E82DDD57B77A50F7BCB10DD5AE6148D2D389D1 (void);
+extern void Cloth_set_capsuleColliders_m3235BE8A0E6B9108D6A8A3F7D11991571562D83D (void);
+extern void Cloth_get_sphereColliders_mDDE201272A0BC03A8A776C7D15D5F748F8DB373F (void);
+extern void Cloth_set_sphereColliders_m1B3D44590D44B6C0666614AFB1C3EAB694BCA468 (void);
+extern void Cloth_get_sleepThreshold_m1B304484FAAD6101AADAF9FB3BDCBA058A59D8C0 (void);
+extern void Cloth_set_sleepThreshold_m4151FE84347318B1CCF6E05D5D2970091DBB7034 (void);
+extern void Cloth_get_bendingStiffness_m6C6BF65C71036864EA55FC287505797C3D6F6ACB (void);
+extern void Cloth_set_bendingStiffness_m90110047F4CCFA556073248AECD2EE1F79A8034D (void);
+extern void Cloth_get_stretchingStiffness_m8D1FCD7A1F2D4EEDACE7DDAACED977EA5BA4139C (void);
+extern void Cloth_set_stretchingStiffness_m4B0A4FDA719EC784178ED9C25EC6C21BCEE73CDE (void);
+extern void Cloth_get_damping_m7554F6DC3355BB4FD3677E4CA8FFBAC2FF8E285B (void);
+extern void Cloth_set_damping_m4D1E540B2E58E7E96AD1FD3A30E39AC79062BFA5 (void);
+extern void Cloth_get_externalAcceleration_m252384E27A2557D66B5F83D284B2FC1A89641FF4 (void);
+extern void Cloth_set_externalAcceleration_mAAF12B724469EC6D711AB51E1229FCF66AB3599A (void);
+extern void Cloth_get_randomAcceleration_m45512198CA7F3781B436EF819355FD259D7B78A5 (void);
+extern void Cloth_set_randomAcceleration_mF837DC2C70F08496451B2BF3C71848E9FE0E613E (void);
+extern void Cloth_get_useGravity_mB719AC46F791BB975606C95F61921C0BBB682F40 (void);
+extern void Cloth_set_useGravity_m2B41A8BBD2F45201F736A7FF9333B607B0944A2D (void);
+extern void Cloth_get_friction_m9901130FAE8B86E65F1A2BCA7FEC5C7406B627F3 (void);
+extern void Cloth_set_friction_m176B626212006C70AB17F2A25074356DD43C2F27 (void);
+extern void Cloth_get_collisionMassScale_m8E238BD5E6A305603175163AF17C9BA364F57109 (void);
+extern void Cloth_set_collisionMassScale_mB2A34759FFC104E82F66557113A6FD53A4465A1C (void);
+extern void Cloth_get_enableContinuousCollision_mD01452D0B91495479201DB31B227DA5B58F58403 (void);
+extern void Cloth_set_enableContinuousCollision_m6A5A4AAA3D7FF792BD0F0BB4986AA8B5250ABE33 (void);
+extern void Cloth_get_useVirtualParticles_m40A99317F45E81DF8D0E6C1863CF948755188A2F (void);
+extern void Cloth_set_useVirtualParticles_mE8058B9161BE16A3945C56DA0C21B8EDE325637E (void);
+extern void Cloth_get_worldVelocityScale_mBD2081338FC233BF3D8DB155058C7817135A2FE2 (void);
+extern void Cloth_set_worldVelocityScale_m560E8BACD096D26085410D5CBA2EA65E7E995108 (void);
+extern void Cloth_get_worldAccelerationScale_m387BFE853B711BE5A6CF182F99D3B233F411A453 (void);
+extern void Cloth_set_worldAccelerationScale_m9191999C9886FECEB8C89E01D95E9E309D60E984 (void);
+extern void Cloth_get_clothSolverFrequency_mDBB7222AB0355E19195C513B6DDEED35F88A7B4C (void);
+extern void Cloth_set_clothSolverFrequency_m75608DE320A074915C3B3244E6A4C38CE48CD5E9 (void);
+extern void Cloth_get_selfCollisionDistance_mEF57920DE88E7EE7316D1B976D900EBEA97187D3 (void);
+extern void Cloth_set_selfCollisionDistance_m063905EE7B17B313361744B2A9298891BD04458B (void);
+extern void Cloth_get_selfCollisionStiffness_m3AB07989A94F1003B1A503786035DA9798750B79 (void);
+extern void Cloth_set_selfCollisionStiffness_m135046E1757E8DC1FCCBE36A2B3639C2F590F148 (void);
+extern void Cloth_get_externalAcceleration_Injected_m447914E289BF0CDDD0F7003A9BE2C0D1F062AF86 (void);
+extern void Cloth_set_externalAcceleration_Injected_m7D6915CC37E94AA29764A5B02BC19D27D41998AD (void);
+extern void Cloth_get_randomAcceleration_Injected_m97B63C18E1B3FB737D9330FAE693F3EF3A03A052 (void);
+extern void Cloth_set_randomAcceleration_Injected_m232B588EF417B76FAFA2B28669EC76F5383AD30A (void);
+static Il2CppMethodPointer s_methodPointers[46] = 
+{
+	ClothSphereColliderPair_get_first_m946C5B40948A5D91176D9498D36F160FC8CBA69D,
+	ClothSphereColliderPair_set_first_m0A1B7959D953AE101AFE5E2D05816A00AD3FE75E,
+	ClothSphereColliderPair_set_second_mD06B1045D859C8E0D1E04C5B43DFD0C9D6AA91E3,
+	ClothSphereColliderPair__ctor_m403496CF4C36C6BFA621F66E0CECC96100A80673,
+	Cloth_get_coefficients_mFD7EB4A4A5B997FDE2787AEF924C4AD78510AB6C,
+	Cloth_set_coefficients_m3F62405E90C802A2B9761A4E131CD5C8412E029A,
+	Cloth_get_capsuleColliders_m34E82DDD57B77A50F7BCB10DD5AE6148D2D389D1,
+	Cloth_set_capsuleColliders_m3235BE8A0E6B9108D6A8A3F7D11991571562D83D,
+	Cloth_get_sphereColliders_mDDE201272A0BC03A8A776C7D15D5F748F8DB373F,
+	Cloth_set_sphereColliders_m1B3D44590D44B6C0666614AFB1C3EAB694BCA468,
+	Cloth_get_sleepThreshold_m1B304484FAAD6101AADAF9FB3BDCBA058A59D8C0,
+	Cloth_set_sleepThreshold_m4151FE84347318B1CCF6E05D5D2970091DBB7034,
+	Cloth_get_bendingStiffness_m6C6BF65C71036864EA55FC287505797C3D6F6ACB,
+	Cloth_set_bendingStiffness_m90110047F4CCFA556073248AECD2EE1F79A8034D,
+	Cloth_get_stretchingStiffness_m8D1FCD7A1F2D4EEDACE7DDAACED977EA5BA4139C,
+	Cloth_set_stretchingStiffness_m4B0A4FDA719EC784178ED9C25EC6C21BCEE73CDE,
+	Cloth_get_damping_m7554F6DC3355BB4FD3677E4CA8FFBAC2FF8E285B,
+	Cloth_set_damping_m4D1E540B2E58E7E96AD1FD3A30E39AC79062BFA5,
+	Cloth_get_externalAcceleration_m252384E27A2557D66B5F83D284B2FC1A89641FF4,
+	Cloth_set_externalAcceleration_mAAF12B724469EC6D711AB51E1229FCF66AB3599A,
+	Cloth_get_randomAcceleration_m45512198CA7F3781B436EF819355FD259D7B78A5,
+	Cloth_set_randomAcceleration_mF837DC2C70F08496451B2BF3C71848E9FE0E613E,
+	Cloth_get_useGravity_mB719AC46F791BB975606C95F61921C0BBB682F40,
+	Cloth_set_useGravity_m2B41A8BBD2F45201F736A7FF9333B607B0944A2D,
+	Cloth_get_friction_m9901130FAE8B86E65F1A2BCA7FEC5C7406B627F3,
+	Cloth_set_friction_m176B626212006C70AB17F2A25074356DD43C2F27,
+	Cloth_get_collisionMassScale_m8E238BD5E6A305603175163AF17C9BA364F57109,
+	Cloth_set_collisionMassScale_mB2A34759FFC104E82F66557113A6FD53A4465A1C,
+	Cloth_get_enableContinuousCollision_mD01452D0B91495479201DB31B227DA5B58F58403,
+	Cloth_set_enableContinuousCollision_m6A5A4AAA3D7FF792BD0F0BB4986AA8B5250ABE33,
+	Cloth_get_useVirtualParticles_m40A99317F45E81DF8D0E6C1863CF948755188A2F,
+	Cloth_set_useVirtualParticles_mE8058B9161BE16A3945C56DA0C21B8EDE325637E,
+	Cloth_get_worldVelocityScale_mBD2081338FC233BF3D8DB155058C7817135A2FE2,
+	Cloth_set_worldVelocityScale_m560E8BACD096D26085410D5CBA2EA65E7E995108,
+	Cloth_get_worldAccelerationScale_m387BFE853B711BE5A6CF182F99D3B233F411A453,
+	Cloth_set_worldAccelerationScale_m9191999C9886FECEB8C89E01D95E9E309D60E984,
+	Cloth_get_clothSolverFrequency_mDBB7222AB0355E19195C513B6DDEED35F88A7B4C,
+	Cloth_set_clothSolverFrequency_m75608DE320A074915C3B3244E6A4C38CE48CD5E9,
+	Cloth_get_selfCollisionDistance_mEF57920DE88E7EE7316D1B976D900EBEA97187D3,
+	Cloth_set_selfCollisionDistance_m063905EE7B17B313361744B2A9298891BD04458B,
+	Cloth_get_selfCollisionStiffness_m3AB07989A94F1003B1A503786035DA9798750B79,
+	Cloth_set_selfCollisionStiffness_m135046E1757E8DC1FCCBE36A2B3639C2F590F148,
+	Cloth_get_externalAcceleration_Injected_m447914E289BF0CDDD0F7003A9BE2C0D1F062AF86,
+	Cloth_set_externalAcceleration_Injected_m7D6915CC37E94AA29764A5B02BC19D27D41998AD,
+	Cloth_get_randomAcceleration_Injected_m97B63C18E1B3FB737D9330FAE693F3EF3A03A052,
+	Cloth_set_randomAcceleration_Injected_m232B588EF417B76FAFA2B28669EC76F5383AD30A,
+};
+extern void ClothSphereColliderPair_get_first_m946C5B40948A5D91176D9498D36F160FC8CBA69D_AdjustorThunk (void);
+extern void ClothSphereColliderPair_set_first_m0A1B7959D953AE101AFE5E2D05816A00AD3FE75E_AdjustorThunk (void);
+extern void ClothSphereColliderPair_set_second_mD06B1045D859C8E0D1E04C5B43DFD0C9D6AA91E3_AdjustorThunk (void);
+extern void ClothSphereColliderPair__ctor_m403496CF4C36C6BFA621F66E0CECC96100A80673_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
+{
+	{ 0x06000001, ClothSphereColliderPair_get_first_m946C5B40948A5D91176D9498D36F160FC8CBA69D_AdjustorThunk },
+	{ 0x06000002, ClothSphereColliderPair_set_first_m0A1B7959D953AE101AFE5E2D05816A00AD3FE75E_AdjustorThunk },
+	{ 0x06000003, ClothSphereColliderPair_set_second_mD06B1045D859C8E0D1E04C5B43DFD0C9D6AA91E3_AdjustorThunk },
+	{ 0x06000004, ClothSphereColliderPair__ctor_m403496CF4C36C6BFA621F66E0CECC96100A80673_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[46] = 
+{
+	10909,
+	8826,
+	8826,
+	8826,
+	10909,
+	8826,
+	10909,
+	8826,
+	10909,
+	8826,
+	10985,
+	8898,
+	10985,
+	8898,
+	10985,
+	8898,
+	10985,
+	8898,
+	11066,
+	8977,
+	11066,
+	8977,
+	10760,
+	8677,
+	10985,
+	8898,
+	10985,
+	8898,
+	10760,
+	8677,
+	10985,
+	8898,
+	10985,
+	8898,
+	10985,
+	8898,
+	10985,
+	8898,
+	10985,
+	8898,
+	10985,
+	8898,
+	8651,
+	8651,
+	8651,
+	8651,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_ClothModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_ClothModule_CodeGenModule = 
+{
+	"UnityEngine.ClothModule.dll",
+	46,
+	s_methodPointers,
+	4,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
