@@ -71,10 +71,15 @@ dependencies {
 
 }
 
+
 def getSdkDir() {
-    Properties local = new Properties()
-    local.load(new FileInputStream("${rootDir}/local.properties"))
-    return local.getProperty('sdk.dir')
+    def sdkDir = System.getenv('ANDROID_SDK_ROOT')
+    if (sdkDir == null) {
+        Properties local = new Properties()
+        local.load(new FileInputStream("${rootDir}/local.properties"))
+        sdkDir = local.getProperty('sdk.dir') // Replace with actual SDK path
+    }
+    return sdkDir
 }
 
 def BuildIl2Cpp(String workingDir, String configuration, String architecture, String abi, String[] staticLibraries) {

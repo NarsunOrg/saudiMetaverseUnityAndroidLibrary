@@ -1,6 +1,8 @@
 # configuration file for building snapshots and releases with jitpack.io
 jdk:
   - openjdk17
+env:
+  ANDROID_SDK_ROOT: /Users/mac/Library/Android/sdk
 install:
   # Install Git LFS and pull large files
   - git lfs install
