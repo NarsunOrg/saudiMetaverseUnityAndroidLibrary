@@ -6419,12 +6419,12 @@ IL_0008:
 		Type_t* L_3 = L_2;
 		NullCheck(L_3);
 		FieldInfo_t* L_4;
-		L_4 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85, L_3, _stringLiteral9F1693743D0BCC746FC0CC549DF48961EFFB4C46, ((int32_t)52));
+		L_4 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(89, L_3, _stringLiteral9F1693743D0BCC746FC0CC549DF48961EFFB4C46, ((int32_t)52));
 		((BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_StaticFields*)il2cpp_codegen_static_fields_for(BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_il2cpp_TypeInfo_var))->____uvField = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_StaticFields*)il2cpp_codegen_static_fields_for(BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_il2cpp_TypeInfo_var))->____uvField), (void*)L_4);
 		NullCheck(L_3);
 		FieldInfo_t* L_5;
-		L_5 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(85, L_3, _stringLiteralBF2F4C13C2A867F2DA24B409FA546A25EFD1F562, ((int32_t)52));
+		L_5 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(89, L_3, _stringLiteralBF2F4C13C2A867F2DA24B409FA546A25EFD1F562, ((int32_t)52));
 		((BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_StaticFields*)il2cpp_codegen_static_fields_for(BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_il2cpp_TypeInfo_var))->____vertexField = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_StaticFields*)il2cpp_codegen_static_fields_for(BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_il2cpp_TypeInfo_var))->____vertexField), (void*)L_5);
 		return;
@@ -6481,13 +6481,13 @@ IL_0020:
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_5 = ___0_vh;
 		NullCheck(L_4);
 		RuntimeObject* L_6;
-		L_6 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(24, L_4, L_5);
+		L_6 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(26, L_4, L_5);
 		V_0 = ((List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*)IsInstClass((RuntimeObject*)L_6, List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_il2cpp_TypeInfo_var));
 		FieldInfo_t* L_7 = ((BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_StaticFields*)il2cpp_codegen_static_fields_for(BlurredBackgroundImage_tDD2030058E27DFD556134170B2B8A539B2E54697_il2cpp_TypeInfo_var))->____uvField;
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_8 = ___0_vh;
 		NullCheck(L_7);
 		RuntimeObject* L_9;
-		L_9 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(24, L_7, L_8);
+		L_9 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(26, L_7, L_8);
 		V_1 = ((List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317*)IsInstClass((RuntimeObject*)L_9, List_1_tF42FEB6C3B18B7E7C8F2DE1FEBA00D2491736317_il2cpp_TypeInfo_var));
 		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_10 = V_0;
 		if (!L_10)
@@ -10495,7 +10495,7 @@ IL_00eb:
 		L_57 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_56, NULL);
 		NullCheck(L_57);
 		String_t* L_58;
-		L_58 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_57);
+		L_58 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_57);
 		NullCheck(L_58);
 		bool L_59;
 		L_59 = String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC(L_58, _stringLiteral601DC0435728972758CDC977DE586C27CC195ED3, NULL);
@@ -10612,7 +10612,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RenderPipelineDetector_GetCurrentRend
 		L_4 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_3, NULL);
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_4);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_4);
 		NullCheck(L_5);
 		bool L_6;
 		L_6 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_5, _stringLiteralDEAC03BC08603A926530E878D97B96FA6C0CFEED, NULL);
@@ -11444,7 +11444,7 @@ IL_004f:
 		L_13 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_12, NULL);
 		NullCheck(L_13);
 		String_t* L_14;
-		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_13);
+		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(26, L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_15, L_14, NULL);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = L_15;

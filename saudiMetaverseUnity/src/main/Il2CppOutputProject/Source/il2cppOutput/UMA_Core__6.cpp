@@ -8232,7 +8232,7 @@ IL_0028:
 		SkeletonBoneU5BU5D_t84722CE071EF9295326D5A84492716DBC7A15A85* L_8 = __this->___boneInfo;
 		NullCheck(L_8);
 		NullCheck(L_7);
-		VirtualActionInvoker1< int32_t >::Invoke(16, L_7, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
+		VirtualActionInvoker1< int32_t >::Invoke(18, L_7, ((int32_t)(((RuntimeArray*)L_8)->max_length)));
 		V_2 = 0;
 		goto IL_0060;
 	}
@@ -8267,7 +8267,7 @@ IL_0060:
 		HumanBoneU5BU5D_t443B81D55400778CBB921DF04BE932ABF14BAA52* L_19 = __this->___humanInfo;
 		NullCheck(L_19);
 		NullCheck(L_18);
-		VirtualActionInvoker1< int32_t >::Invoke(16, L_18, ((int32_t)(((RuntimeArray*)L_19)->max_length)));
+		VirtualActionInvoker1< int32_t >::Invoke(18, L_18, ((int32_t)(((RuntimeArray*)L_19)->max_length)));
 		V_4 = 0;
 		goto IL_009c;
 	}
@@ -8308,31 +8308,31 @@ IL_009c:
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_30 = V_1;
 		float L_31 = __this->___armStretch;
 		NullCheck(L_30);
-		VirtualActionInvoker1< float >::Invoke(20, L_30, L_31);
+		VirtualActionInvoker1< float >::Invoke(22, L_30, L_31);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_32 = V_1;
 		float L_33 = __this->___feetSpacing;
 		NullCheck(L_32);
-		VirtualActionInvoker1< float >::Invoke(20, L_32, L_33);
+		VirtualActionInvoker1< float >::Invoke(22, L_32, L_33);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_34 = V_1;
 		float L_35 = __this->___legStretch;
 		NullCheck(L_34);
-		VirtualActionInvoker1< float >::Invoke(20, L_34, L_35);
+		VirtualActionInvoker1< float >::Invoke(22, L_34, L_35);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_36 = V_1;
 		float L_37 = __this->___lowerArmTwist;
 		NullCheck(L_36);
-		VirtualActionInvoker1< float >::Invoke(20, L_36, L_37);
+		VirtualActionInvoker1< float >::Invoke(22, L_36, L_37);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_38 = V_1;
 		float L_39 = __this->___lowerLegTwist;
 		NullCheck(L_38);
-		VirtualActionInvoker1< float >::Invoke(20, L_38, L_39);
+		VirtualActionInvoker1< float >::Invoke(22, L_38, L_39);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_40 = V_1;
 		float L_41 = __this->___upperArmTwist;
 		NullCheck(L_40);
-		VirtualActionInvoker1< float >::Invoke(20, L_40, L_41);
+		VirtualActionInvoker1< float >::Invoke(22, L_40, L_41);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_42 = V_1;
 		float L_43 = __this->___upperLegTwist;
 		NullCheck(L_42);
-		VirtualActionInvoker1< float >::Invoke(20, L_42, L_43);
+		VirtualActionInvoker1< float >::Invoke(22, L_42, L_43);
 	}
 
 IL_0104:
@@ -8340,7 +8340,7 @@ IL_0104:
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_44 = V_0;
 		NullCheck(L_44);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_45;
-		L_45 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(30, L_44);
+		L_45 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_44);
 		__this->___serializedChunk = L_45;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___serializedChunk), (void*)L_45);
 		return;
@@ -8723,12 +8723,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_m15D32B5E3EA3E3672CD1
 		String_t* L_1;
 		L_1 = HumanBone_get_boneName_m09C4D3365F4D1E69CD0907DEC3A2298A2CF6E18B((&___1_value), NULL);
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(21, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(23, L_0, L_1);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_2 = ___0_bn;
 		String_t* L_3;
 		L_3 = HumanBone_get_humanName_mC5FF6D0EDE66B773EF7E6DD7722E20C07EBCDCF6((&___1_value), NULL);
 		NullCheck(L_2);
-		VirtualActionInvoker1< String_t* >::Invoke(21, L_2, L_3);
+		VirtualActionInvoker1< String_t* >::Invoke(23, L_2, L_3);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_4 = ___0_bn;
 		HumanBone_t9A978BB2457E935D0B6FA64ADDE60562ADAE5FD8 L_5 = ___1_value;
 		HumanLimit_tE825F951DEE60E2641DD91F3C92C6B56A139A36E L_6 = L_5.___limit;
@@ -8743,7 +8743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_m370D93322CC13EE57713
 		float L_1;
 		L_1 = HumanLimit_get_axisLength_m9691117C17DFCC40ECB9C1A459CE998831678947((&___1_value), NULL);
 		NullCheck(L_0);
-		VirtualActionInvoker1< float >::Invoke(20, L_0, L_1);
+		VirtualActionInvoker1< float >::Invoke(22, L_0, L_1);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_2 = ___0_bn;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = HumanLimit_get_center_m6F488F439245F5E54D0DFBE04CD63816BAFEFF6B((&___1_value), NULL);
@@ -8760,7 +8760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_m370D93322CC13EE57713
 		bool L_9;
 		L_9 = HumanLimit_get_useDefaultValues_mA6C116B2DC3D800FDACE2907D52B85E632914677((&___1_value), NULL);
 		NullCheck(L_8);
-		VirtualActionInvoker1< bool >::Invoke(7, L_8, L_9);
+		VirtualActionInvoker1< bool >::Invoke(8, L_8, L_9);
 		return;
 	}
 }
@@ -8771,7 +8771,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_m61066337D11DFDEF8804
 		SkeletonBone_tA999028EED923DB65E286BB99F81541872F5B126 L_1 = ___1_bone;
 		String_t* L_2 = L_1.___name;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(21, L_0, L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(23, L_0, L_2);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_3 = ___0_bn;
 		SkeletonBone_tA999028EED923DB65E286BB99F81541872F5B126 L_4 = ___1_bone;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4.___position;
@@ -8786,7 +8786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_m61066337D11DFDEF8804
 		UmaTPose_Serialize_mB20EB27AD7991C0CE2B1C769481D215A54A7614D(__this, L_9, L_11, NULL);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_12 = ___0_bn;
 		NullCheck(L_12);
-		VirtualActionInvoker1< int32_t >::Invoke(16, L_12, 1);
+		VirtualActionInvoker1< int32_t >::Invoke(18, L_12, 1);
 		return;
 	}
 }
@@ -8797,22 +8797,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_m5447F705A4B804E6F705
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_value;
 		float L_2 = L_1.___x;
 		NullCheck(L_0);
-		VirtualActionInvoker1< float >::Invoke(20, L_0, L_2);
+		VirtualActionInvoker1< float >::Invoke(22, L_0, L_2);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_3 = ___0_bn;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___1_value;
 		float L_5 = L_4.___y;
 		NullCheck(L_3);
-		VirtualActionInvoker1< float >::Invoke(20, L_3, L_5);
+		VirtualActionInvoker1< float >::Invoke(22, L_3, L_5);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_6 = ___0_bn;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = ___1_value;
 		float L_8 = L_7.___z;
 		NullCheck(L_6);
-		VirtualActionInvoker1< float >::Invoke(20, L_6, L_8);
+		VirtualActionInvoker1< float >::Invoke(22, L_6, L_8);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_9 = ___0_bn;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_value;
 		float L_11 = L_10.___w;
 		NullCheck(L_9);
-		VirtualActionInvoker1< float >::Invoke(20, L_9, L_11);
+		VirtualActionInvoker1< float >::Invoke(22, L_9, L_11);
 		return;
 	}
 }
@@ -8823,17 +8823,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UmaTPose_Serialize_mB20EB27AD7991C0CE2B1
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_value;
 		float L_2 = L_1.___x;
 		NullCheck(L_0);
-		VirtualActionInvoker1< float >::Invoke(20, L_0, L_2);
+		VirtualActionInvoker1< float >::Invoke(22, L_0, L_2);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_3 = ___0_bn;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_value;
 		float L_5 = L_4.___y;
 		NullCheck(L_3);
-		VirtualActionInvoker1< float >::Invoke(20, L_3, L_5);
+		VirtualActionInvoker1< float >::Invoke(22, L_3, L_5);
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_6 = ___0_bn;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___1_value;
 		float L_8 = L_7.___z;
 		NullCheck(L_6);
-		VirtualActionInvoker1< float >::Invoke(20, L_6, L_8);
+		VirtualActionInvoker1< float >::Invoke(22, L_6, L_8);
 		return;
 	}
 }
@@ -11138,7 +11138,7 @@ IL_001c:
 		Assembly_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		NullCheck(L_7);
 		Type_t* L_8;
-		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(16, L_7, _stringLiteralF40298A51638CBB746DD5445272DF2FB9A2C44E2);
+		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_7, _stringLiteralF40298A51638CBB746DD5445272DF2FB9A2C44E2);
 		((PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_StaticFields*)il2cpp_codegen_static_fields_for(PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_il2cpp_TypeInfo_var))->___powerPackPersistance = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&((PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_StaticFields*)il2cpp_codegen_static_fields_for(PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_il2cpp_TypeInfo_var))->___powerPackPersistance), (void*)L_8);
 		Type_t* L_9 = ((PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_StaticFields*)il2cpp_codegen_static_fields_for(PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_il2cpp_TypeInfo_var))->___powerPackPersistance;
@@ -11214,7 +11214,7 @@ IL_001c:
 		Assembly_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		NullCheck(L_7);
 		Type_t* L_8;
-		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(16, L_7, _stringLiteral68DBE499EF9FB4FA959FB0AFAB3FA8C77B4917AF);
+		L_8 = VirtualFuncInvoker1< Type_t*, String_t* >::Invoke(18, L_7, _stringLiteral68DBE499EF9FB4FA959FB0AFAB3FA8C77B4917AF);
 		((PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_StaticFields*)il2cpp_codegen_static_fields_for(PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_il2cpp_TypeInfo_var))->___umaEditorAvatarType = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&((PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_StaticFields*)il2cpp_codegen_static_fields_for(PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_il2cpp_TypeInfo_var))->___umaEditorAvatarType), (void*)L_8);
 		Type_t* L_9 = ((PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_StaticFields*)il2cpp_codegen_static_fields_for(PowerToolsIntegration_tCEEE2CD27B1575AF38D4E157A29C54A545453C12_il2cpp_TypeInfo_var))->___umaEditorAvatarType;

@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.NarsunOrg</groupId> <!-- com.github.geek-atif-->
-    <artifactId>com-narsun-saudiMetaverseUnity</artifactId> <!-- com-atifqamar-customtoast -->
-    <version>v1.1.4</version> <!-- 1.0 -->
+    <artifactId>com-narsun-saudiMetaverseUnityV5</artifactId> <!-- com-atifqamar-customtoast -->
+    <version>v1.1.5</version> <!-- 1.0 -->
     <packaging>pom</packaging>
     <description>third version release</description>
 </project>

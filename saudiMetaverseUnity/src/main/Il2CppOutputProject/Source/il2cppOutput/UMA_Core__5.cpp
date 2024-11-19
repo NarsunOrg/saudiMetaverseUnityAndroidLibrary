@@ -19045,7 +19045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PropertyHolder_set_property_m25C76EF750E
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_1);
 		__this->___propertType = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___propertType), (void*)L_2);
 		UMAProperty_tD62320E663807075B7725453227A96C01F446460* L_3 = ___0_value;
@@ -19519,7 +19519,7 @@ IL_0015:
 			Assembly_t* L_7 = V_3;
 			NullCheck(L_7);
 			TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_8;
-			L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(15, L_7);
+			L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(17, L_7);
 			V_4 = L_8;
 			V_5 = 0;
 			goto IL_0060_1;
@@ -19540,7 +19540,7 @@ IL_0026_1:
 			Type_t* L_15 = V_6;
 			NullCheck(L_14);
 			bool L_16;
-			L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_14, L_15);
+			L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_14, L_15);
 			if (!L_16)
 			{
 				goto IL_005a_1;
@@ -24883,7 +24883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UMARecipeBase_GetTypeNameHash_mD636CE
 		L_0 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_0);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_1, NULL);
@@ -25004,7 +25004,7 @@ IL_001e:
 		Assembly_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		NullCheck(L_7);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_8;
-		L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(15, L_7);
+		L_8 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(17, L_7);
 		V_3 = L_8;
 		V_4 = 0;
 		goto IL_005c;
@@ -25025,7 +25025,7 @@ IL_002c:
 		L_15 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_14, NULL);
 		NullCheck(L_13);
 		bool L_16;
-		L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(20, L_13, L_15);
+		L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_13, L_15);
 		if (!L_16)
 		{
 			goto IL_0056;
@@ -25124,7 +25124,7 @@ IL_000a:
 		Type_t* L_5 = V_2;
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_5);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_7;
 		L_7 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_6, NULL);

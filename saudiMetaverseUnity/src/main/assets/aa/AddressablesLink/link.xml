@@ -12,6 +12,7 @@
     <type fullname="Billboard" preserve="all" />
     <type fullname="Billboard2" preserve="all" />
     <type fullname="Carousel.ScrollView" preserve="all" />
+    <type fullname="CullSphere" preserve="all" />
     <type fullname="CustomHelperClasses.Billboard" preserve="all" />
     <type fullname="CustomPlayer" preserve="all" />
     <type fullname="DialogueController" preserve="all" />
@@ -35,6 +36,7 @@
     <type fullname="ExplorationsData" preserve="all" />
     <type fullname="FilterButton" preserve="all" />
     <type fullname="GameEngine" preserve="all" />
+    <type fullname="GuideScreenItemView" preserve="all" />
     <type fullname="HintManager" preserve="all" />
     <type fullname="HintsData" preserve="all" />
     <type fullname="HintView" preserve="all" />
@@ -46,11 +48,15 @@
     <type fullname="KeyInteractionTrigger" preserve="all" />
     <type fullname="KingSalmanHUDManager" preserve="all" />
     <type fullname="KingSalmanInteractionsManager" preserve="all" />
+    <type fullname="LeaderboardItemView" preserve="all" />
+    <type fullname="LeaderboardView" preserve="all" />
     <type fullname="MagneticScrollView.ChangeCheckCallback" preserve="all" />
     <type fullname="MagneticScrollView.IndexTableManager" preserve="all" />
     <type fullname="MagneticScrollView.MagneticScrollRect" preserve="all" />
     <type fullname="MagneticScrollView.SwipeDetection" preserve="all" />
     <type fullname="MiniGameDiriyah" preserve="all" />
+    <type fullname="MiniGameKSPController" preserve="all" />
+    <type fullname="MiniGameKSPView" preserve="all" />
     <type fullname="MiniMapCamera" preserve="all" />
     <type fullname="MobileDisableAutoSwitchControls" preserve="all" />
     <type fullname="MukaabHUDManager" preserve="all" />
@@ -63,8 +69,9 @@
     <type fullname="ObjectivesData" preserve="all" />
     <type fullname="ObjectivesManager" preserve="all" />
     <type fullname="ObjectivesView" preserve="all" />
+    <type fullname="PlantStageUnlockedView" preserve="all" />
+    <type fullname="PlayAnimation" preserve="all" />
     <type fullname="PlayerInteraction" preserve="all" />
-    <type fullname="PlaySeedPlantAnimation" preserve="all" />
     <type fullname="PopupManager" preserve="all" />
     <type fullname="PortalInteractionTrigger" preserve="all" />
     <type fullname="RewardsData" preserve="all" />
@@ -79,12 +86,12 @@
     <type fullname="StarterAssets.UICanvasControllerInput" preserve="all" />
     <type fullname="SubTaskView" preserve="all" />
     <type fullname="TaskView" preserve="all" />
+    <type fullname="TestShare" preserve="all" />
     <type fullname="TreeCollectedView" preserve="all" />
     <type fullname="TreeInteractionTrigger" preserve="all" />
     <type fullname="TreeInventoryView" preserve="all" />
     <type fullname="TreesData" preserve="all" />
     <type fullname="TreeView" preserve="all" />
-    <type fullname="UILanguageSwitcher_Button" preserve="all" />
     <type fullname="UILanguageSwitcher_GameObject" preserve="all" />
     <type fullname="UILanguageSwitcher_Sprite" preserve="all" />
     <type fullname="UILanguageSwitcher_Text" preserve="all" />
@@ -92,6 +99,7 @@
     <type fullname="UIVirtualButton" preserve="all" />
     <type fullname="UIVirtualJoystick" preserve="all" />
     <type fullname="UIVirtualTouchZone" preserve="all" />
+    <type fullname="Unit" preserve="all" />
     <type fullname="UserGuidenceController" preserve="all" />
     <type fullname="UserGuidenceControllerKingSalman" preserve="all" />
     <type fullname="UserGuidenceControllerTheMukaab" preserve="all" />
@@ -100,34 +108,55 @@
     <type fullname="VideoInteractionTrigger" preserve="all" />
     <type fullname="VideoLoader" preserve="all" />
     <type fullname="VideoLoaderView" preserve="all" />
+    <type fullname="AllDialoguesData_Dynamic" preserve="nothing" serialized="true" />
+    <type fullname="ApiManager/PopupData" preserve="nothing" serialized="true" />
     <type fullname="AssetReferenceVideoClip" preserve="nothing" serialized="true" />
     <type fullname="DialogLayoutData" preserve="nothing" serialized="true" />
     <type fullname="Dialogue" preserve="nothing" serialized="true" />
     <type fullname="Exploration" preserve="nothing" serialized="true" />
     <type fullname="ExplorationData" preserve="nothing" serialized="true" />
+    <type fullname="Fields" preserve="nothing" serialized="true" />
     <type fullname="Hint" preserve="nothing" serialized="true" />
+    <type fullname="HintsData_Dynamic" preserve="nothing" serialized="true" />
+    <type fullname="KSPMiniGameData" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardData_KSP" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardItemData" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardResponse_KSP" preserve="nothing" serialized="true" />
     <type fullname="Message" preserve="nothing" serialized="true" />
+    <type fullname="MiniGame" preserve="nothing" serialized="true" />
     <type fullname="Objective" preserve="nothing" serialized="true" />
+    <type fullname="PlantStageData" preserve="nothing" serialized="true" />
     <type fullname="RewardData" preserve="nothing" serialized="true" />
+    <type fullname="RewardsData_Dynamic" preserve="nothing" serialized="true" />
     <type fullname="SubObjectives" preserve="nothing" serialized="true" />
+    <type fullname="Title" preserve="nothing" serialized="true" />
     <type fullname="TreeData" preserve="nothing" serialized="true" />
+    <type fullname="TreesData_Dynamic" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.NullableValueChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UISwitcher.ValueChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UIVirtualButton/BoolEvent" preserve="nothing" serialized="true" />
     <type fullname="UIVirtualButton/Event" preserve="nothing" serialized="true" />
     <type fullname="UIVirtualJoystick/Event" preserve="nothing" serialized="true" />
     <type fullname="UIVirtualTouchZone/Event" preserve="nothing" serialized="true" />
+    <type fullname="UserGame" preserve="nothing" serialized="true" />
     <type fullname="ArtifactData" preserve="nothing" serialized="true" />
+    <type fullname="ArtifactsData_Dynamic" preserve="nothing" serialized="true" />
     <type fullname="DishData" preserve="nothing" serialized="true" />
+    <type fullname="DishesData_Dynamic" preserve="nothing" serialized="true" />
     <type fullname="DoorData" preserve="nothing" serialized="true" />
+    <type fullname="DoorsData_Dynamic" preserve="nothing" serialized="true" />
     <type fullname="IngredientData" preserve="nothing" serialized="true" />
+    <type fullname="LeaderboardResponse" preserve="nothing" serialized="true" />
     <type fullname="MagneticScrollView.SelectionChangeEvent" preserve="nothing" serialized="true" />
     <type fullname="MagneticScrollView.SwipeDetection/SwipeEvent" preserve="nothing" serialized="true" />
     <type fullname="MiniGameDiriyah/ingredientParticle" preserve="nothing" serialized="true" />
     <type fullname="sc.terrain.proceduralpainter.LayerSettings" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AndroidShare" preserve="all" />
     <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
+    <type fullname="IosShare" preserve="all" />
+    <type fullname="SunShineNativeShare" preserve="all" />
   </assembly>
   <assembly fullname="BakeryRuntimeAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="BakeryDirectLight" preserve="all" />
@@ -170,29 +199,81 @@
     <type fullname="RTLTMPro.RTLTextMeshPro" preserve="all" />
   </assembly>
   <assembly fullname="UMA_Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UMA.BonePoseDNAConverterPlugin" preserve="all" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar" preserve="all" />
+    <type fullname="UMA.DNARangeAsset" preserve="all" />
+    <type fullname="UMA.DynamicDNAConverterController" preserve="all" />
+    <type fullname="UMA.DynamicUMADnaAsset" preserve="all" />
+    <type fullname="UMA.PoseTools.UMABonePose" preserve="all" />
+    <type fullname="UMA.PoseTools.UMAExpressionSet" preserve="all" />
+    <type fullname="UMA.RaceData" preserve="all" />
+    <type fullname="UMA.SkeletonDNAConverterPlugin" preserve="all" />
+    <type fullname="UMA.SlotDataAsset" preserve="all" />
     <type fullname="UMA.TextureMerge" preserve="all" />
     <type fullname="UMA.UMAData" preserve="all" />
     <type fullname="UMA.UMADefaultMeshCombiner" preserve="all" />
     <type fullname="UMA.UMAGenerator" preserve="all" />
     <type fullname="UMA.UMAGlobalContext" preserve="all" />
+    <type fullname="UMA.UMAMaterial" preserve="all" />
     <type fullname="UMA.UMAPostProcess" preserve="all" />
+    <type fullname="UMA.UMATextRecipe" preserve="all" />
+    <type fullname="UMA.UmaTPose" preserve="all" />
+    <type fullname="UMA.BaseCharacterModifier" preserve="nothing" serialized="true" />
+    <type fullname="UMA.BonePoseDNAConverterPlugin/BonePoseDNAConverter" preserve="nothing" serialized="true" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar/ColorValue" preserve="nothing" serialized="true" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar/ColorValueList" preserve="nothing" serialized="true" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar/RaceAnimatorList" preserve="nothing" serialized="true" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar/RaceSetter" preserve="nothing" serialized="true" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar/WardrobeRecipeList" preserve="nothing" serialized="true" />
     <type fullname="UMA.CharacterSystem.DynamicCharacterAvatar/WardrobeRecipeListItem" preserve="nothing" serialized="true" />
+    <type fullname="UMA.CharacterSystem.SkeletonModifier" preserve="nothing" serialized="true" />
+    <type fullname="UMA.CharacterSystem.SkeletonModifier/spVal" preserve="nothing" serialized="true" />
+    <type fullname="UMA.CharacterSystem.SkeletonModifier/spVal/spValValue" preserve="nothing" serialized="true" />
+    <type fullname="UMA.DNAConverterField" preserve="nothing" serialized="true" />
+    <type fullname="UMA.DNAConverterList" preserve="nothing" serialized="true" />
+    <type fullname="UMA.DNAEvaluationGraph" preserve="nothing" serialized="true" />
+    <type fullname="UMA.DNAEvaluator" preserve="nothing" serialized="true" />
+    <type fullname="UMA.DNAEvaluatorList" preserve="nothing" serialized="true" />
+    <type fullname="UMA.DynamicDNAPlugin/MasterWeight" preserve="nothing" serialized="true" />
+    <type fullname="UMA.OverlayColorData" preserve="nothing" serialized="true" />
+    <type fullname="UMA.PoseTools.UMABonePose/PoseBone" preserve="nothing" serialized="true" />
+    <type fullname="UMA.PoseTools.UMAExpressionSet/PosePair" preserve="nothing" serialized="true" />
+    <type fullname="UMA.PropertyHolder" preserve="nothing" serialized="true" />
+    <type fullname="UMA.RaceData/CrossCompatibilitySettingsList" preserve="nothing" serialized="true" />
+    <type fullname="UMA.RaceData/RaceThumbnails" preserve="nothing" serialized="true" />
+    <type fullname="UMA.RaceData/RaceThumbnails/WardrobeSlotThumb" preserve="nothing" serialized="true" />
+    <type fullname="UMA.SlotData" preserve="nothing" serialized="true" />
+    <type fullname="UMA.SubMeshTriangles" preserve="nothing" serialized="true" />
     <type fullname="UMA.TextureMerge/BlendModeShaders" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMABoneWeight" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMACharacterEvent" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAColorProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAComputeBufferProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAConstantComputeBufferProperty" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMAData/UMARecipe" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMADataEvent" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMADataSlotMaterialRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMADataSlotProcessedEvent" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMADataWardrobeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMADnaBase" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAFloatArrayProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAFloatProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAIntProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAMaterial/MaterialChannel" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAMaterial/SRPMaterial" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAMaterial/ShaderParms" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMAMaterialPropertyBlock" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAMatrixArrayProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAMatrixProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAMeshData" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMAPredefinedDNA" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMARecipesEvent" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMASkeleton" preserve="nothing" serialized="true" />
     <type fullname="UMA.UMASlotsEvent" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMATextureProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMATransform" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAVectorArrayProperty" preserve="nothing" serialized="true" />
+    <type fullname="UMA.UMAVectorProperty" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -233,15 +314,15 @@
     <type fullname="UnityEngine.Rendering.LensFlareDataSRP" preserve="all" />
     <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
     <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
+    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Vector4Parameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Vector4Parameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.LensFlareDataElementSRP" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.SRPLensFlareBlendMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.SRPLensFlareDistribution" preserve="nothing" serialized="true" />
@@ -253,15 +334,11 @@
     <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.LiftGammaGain" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights" preserve="all" />
-    <type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
     <type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.HDRACESPresetParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Rendering.Universal.TonemappingModeParameter" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
@@ -282,6 +359,8 @@
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.ActivationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ActivationTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
     <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
     <type fullname="UnityEngine.Timeline.SignalAsset" preserve="all" />
@@ -332,6 +411,8 @@
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.BoneWeight1" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />

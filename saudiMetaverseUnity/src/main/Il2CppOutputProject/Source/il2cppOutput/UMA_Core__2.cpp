@@ -5919,7 +5919,7 @@ IL_0011:
 		L_13 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_12, NULL);
 		NullCheck(L_13);
 		String_t* L_14;
-		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_13);
+		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_13);
 		NullCheck(L_11);
 		L_11->___dnaType = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___dnaType), (void*)L_14);
@@ -16282,7 +16282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DnaConverterBehaviour_get_DNATypeHash
 		L_1 = DnaConverterBehaviour_get_DNAType_m7B845AC77BC92DBF9AD91262B12BE69DCC91130D_inline(__this, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_1);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_2, NULL);
@@ -19773,7 +19773,7 @@ IL_0019:
 			StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_4 = V_0;
 			NullCheck(L_4);
 			String_t* L_5;
-			L_5 = VirtualFuncInvoker0< String_t* >::Invoke(12, L_4);
+			L_5 = VirtualFuncInvoker0< String_t* >::Invoke(13, L_4);
 			V_1 = L_5;
 			goto IL_001a;
 		}

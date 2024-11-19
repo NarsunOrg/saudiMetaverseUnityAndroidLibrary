@@ -1925,6 +1925,10 @@ struct AssetLoadingSubsystem_t16CE02097A0BE1FAB24960335EB524629CD31473
 {
 	int32_t ___value__;
 };
+struct AudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B 
+{
+	int32_t ___value__;
+};
 struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
 {
 	int32_t ___value__;
@@ -5102,12 +5106,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_RemoveCommandBufferImpl_mF9533F3C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CameraCallback_Invoke_m67E54F44AA3C83F0D9EF47A5FBC6AF43B0B26362_inline (CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_cam, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Camera_GetCullingParameters_Internal_m5BBC50D6336D50A8F1538FB16B4B12A941272724 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, bool ___1_stereoAware, ScriptableCullingParameters_tD9539440A4A7DA4C7578CCE16F24466A5DC89899* ___2_cullingParameters, int32_t ___3_managedCullingParametersSize, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundingSphere__ctor_mB76812ECBDD8BA5B3E246871C58F6FA6CA2061C7 (BoundingSphere_t2DDB3D1711A6920C0ECA9217D3E4E14AFF03C010* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, float ___1_rad, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CullingGroupEvent_get_index_m73E33457F79F28B72DA04D7249972E8021E8F820 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_isVisible_m4246CC753E08F21BB0F0B20B54A8C2ED15F75F79 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_wasVisible_mD82C7B72563272855596999EA3B165471AD8CD14 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_hasBecomeVisible_m9CFD4B96427A861CE8ED35977463FE736390B46C (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_hasBecomeInvisible_m49C6106C9DFA06058DA14DCF005D21EB90CE225A (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CullingGroupEvent_get_currentDistance_m7BE563DC3D01947C76C8AA62966EA1F4CE423967 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t CullingGroup_Init_m83837524A7AC3B2C1A676F46B4CA78C0BC13C871 (RuntimeObject* ___0_scripting, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_FinalizerFailure_m6393E14CDFFDA805568F521DD92E31BEB3A8E872 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_DisposeInternal_m7846EA792B84BA3F6054A57BA92345A9AE6C975E (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CullingGroup_QueryIndices_m5975C5B54FC0132D309AA0563DFD13379DE2E5D1 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, bool ___0_visible, int32_t ___1_distanceIndex, int32_t ___2_options, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___3_result, int32_t ___4_firstIndex, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_InternalVector3_Injected_mDAB797C3B79E3B93E7B207F8E050E2E73D636E12 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_point, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_InternalVector3_mD2EAE0296E56F8A769C694B0F6F39BDA3F302E0F (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_InternalTransform_mCE4FD49D66D371600E49D055CB805AB05D06A953 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void StateChanged_Invoke_m050DE641598E0C558A8CC865EAD679194581182C_inline (StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* __this, CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110 ___0_sphere, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionProbe_get_size_Injected_mE56ED26CAD1E61ACDF09A1DA6FDCE35BC0067D01 (ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReflectionProbe_set_size_Injected_m491149669865BF07B5F75302A48BAF3CCAD24235 (ReflectionProbe_t7CFA63F0340447A0069E66DB261A8A1B79BA8A2D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) ;
@@ -7896,7 +7907,7 @@ IL_000e:
 		int32_t L_10 = ___1_charsLen;
 		NullCheck(L_8);
 		String_t* L_11;
-		L_11 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_8, L_9, 0, L_10);
+		L_11 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(38, L_8, L_9, 0, L_10);
 		V_2 = L_11;
 		goto IL_0034;
 	}
@@ -9740,7 +9751,7 @@ IL_0039:
 		Type_t* L_12 = ___0_t;
 		NullCheck(L_12);
 		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_13;
-		L_13 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(86, L_12, ((int32_t)52));
+		L_13 = VirtualFuncInvoker1< FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8*, int32_t >::Invoke(90, L_12, ((int32_t)52));
 		V_4 = L_13;
 		V_5 = 0;
 		goto IL_0098;
@@ -9757,7 +9768,7 @@ IL_004f:
 		FieldInfo_t* L_18 = V_6;
 		NullCheck(L_18);
 		Type_t* L_19;
-		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(16, L_18);
+		L_19 = VirtualFuncInvoker0< Type_t* >::Invoke(17, L_18);
 		bool L_20;
 		L_20 = UnsafeUtility_IsBlittableValueType_m159791218E5C5547B5D65D773E8E890372A8F4F8(L_19, NULL);
 		V_7 = (bool)((((int32_t)L_20) == ((int32_t)0))? 1 : 0);
@@ -9772,12 +9783,12 @@ IL_004f:
 		FieldInfo_t* L_23 = V_6;
 		NullCheck(L_23);
 		Type_t* L_24;
-		L_24 = VirtualFuncInvoker0< Type_t* >::Invoke(16, L_23);
+		L_24 = VirtualFuncInvoker0< Type_t* >::Invoke(17, L_23);
 		String_t* L_25 = ___1_name;
 		FieldInfo_t* L_26 = V_6;
 		NullCheck(L_26);
 		String_t* L_27;
-		L_27 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_26);
+		L_27 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_26);
 		String_t* L_28;
 		L_28 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral1517117F1C97F9858A0CAB40CD0F7B384BE59539, L_25, L_27, NULL);
 		String_t* L_29;
@@ -9825,7 +9836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnsafeUtility_IsArrayBlittable_m53049315
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_1);
 		bool L_3;
 		L_3 = UnsafeUtility_IsBlittableValueType_m159791218E5C5547B5D65D773E8E890372A8F4F8(L_2, NULL);
 		V_0 = L_3;
@@ -9849,13 +9860,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnsafeUtility_GetReasonForArrayNonB
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_0, NULL);
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(46, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(47, L_1);
 		V_0 = L_2;
 		Type_t* L_3 = V_0;
 		Type_t* L_4 = V_0;
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_4);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_4);
 		String_t* L_6;
 		L_6 = UnsafeUtility_GetReasonForTypeNonBlittableImpl_m3F94960798254241B201BFC006DD49A8EB974209(L_3, L_5, NULL);
 		V_1 = L_6;
@@ -12695,6 +12706,14 @@ IL2CPP_EXTERN_C  void ApplicationMemoryUsageChange__ctor_mD1B7299FCDDF14B479AF66
 	_thisAdjusted = reinterpret_cast<ApplicationMemoryUsageChange_t6D0E5F815818103331E6C5B0D42E006408D4FFC1*>(__this + _offset);
 	ApplicationMemoryUsageChange__ctor_mD1B7299FCDDF14B479AF66AFDDFC2D710AC6A3C0(_thisAdjusted, ___0_usage, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -16715,6 +16734,192 @@ IL2CPP_EXTERN_C  void BoundingSphere__ctor_mB76812ECBDD8BA5B3E246871C58F6FA6CA20
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CullingGroupEvent_get_index_m73E33457F79F28B72DA04D7249972E8021E8F820 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->___m_Index;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t CullingGroupEvent_get_index_m73E33457F79F28B72DA04D7249972E8021E8F820_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = CullingGroupEvent_get_index_m73E33457F79F28B72DA04D7249972E8021E8F820(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_isVisible_m4246CC753E08F21BB0F0B20B54A8C2ED15F75F79 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		uint8_t L_0 = __this->___m_ThisState;
+		V_0 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&((int32_t)128)))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  bool CullingGroupEvent_get_isVisible_m4246CC753E08F21BB0F0B20B54A8C2ED15F75F79_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CullingGroupEvent_get_isVisible_m4246CC753E08F21BB0F0B20B54A8C2ED15F75F79(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_wasVisible_mD82C7B72563272855596999EA3B165471AD8CD14 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		uint8_t L_0 = __this->___m_PrevState;
+		V_0 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_0&((int32_t)128)))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  bool CullingGroupEvent_get_wasVisible_mD82C7B72563272855596999EA3B165471AD8CD14_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CullingGroupEvent_get_wasVisible_mD82C7B72563272855596999EA3B165471AD8CD14(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_hasBecomeVisible_m9CFD4B96427A861CE8ED35977463FE736390B46C (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0;
+		L_0 = CullingGroupEvent_get_isVisible_m4246CC753E08F21BB0F0B20B54A8C2ED15F75F79(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = CullingGroupEvent_get_wasVisible_mD82C7B72563272855596999EA3B165471AD8CD14(__this, NULL);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		goto IL_0015;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0015:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  bool CullingGroupEvent_get_hasBecomeVisible_m9CFD4B96427A861CE8ED35977463FE736390B46C_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CullingGroupEvent_get_hasBecomeVisible_m9CFD4B96427A861CE8ED35977463FE736390B46C(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroupEvent_get_hasBecomeInvisible_m49C6106C9DFA06058DA14DCF005D21EB90CE225A (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		bool L_0;
+		L_0 = CullingGroupEvent_get_isVisible_m4246CC753E08F21BB0F0B20B54A8C2ED15F75F79(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = CullingGroupEvent_get_wasVisible_mD82C7B72563272855596999EA3B165471AD8CD14(__this, NULL);
+		G_B3_0 = ((int32_t)(L_1));
+		goto IL_0012;
+	}
+
+IL_0011:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0012:
+	{
+		V_0 = (bool)G_B3_0;
+		goto IL_0015;
+	}
+
+IL_0015:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  bool CullingGroupEvent_get_hasBecomeInvisible_m49C6106C9DFA06058DA14DCF005D21EB90CE225A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = CullingGroupEvent_get_hasBecomeInvisible_m49C6106C9DFA06058DA14DCF005D21EB90CE225A(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CullingGroupEvent_get_currentDistance_m7BE563DC3D01947C76C8AA62966EA1F4CE423967 (CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		uint8_t L_0 = __this->___m_ThisState;
+		V_0 = ((int32_t)((int32_t)L_0&((int32_t)127)));
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t CullingGroupEvent_get_currentDistance_m7BE563DC3D01947C76C8AA62966EA1F4CE423967_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CullingGroupEvent_tC79BA328A8280C29F6002F591614081A0E87D110*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = CullingGroupEvent_get_currentDistance_m7BE563DC3D01947C76C8AA62966EA1F4CE423967(_thisAdjusted, method);
+	return _returnValue;
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -16845,6 +17050,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_Dispose_m81E5AC1FB79D0D867B
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* CullingGroup_get_onStateChanged_mBC564949316E7A15405F9C81F91BFA381A73F070 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, const RuntimeMethod* method) 
+{
+	StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* V_0 = NULL;
+	{
+		StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* L_0 = __this->___m_OnStateChanged;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_set_onStateChanged_mD8FC3FBEAD99075326F3A6358D438027D9C4CA70 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		StateChanged_t6DC116251B1ED50EC475CFF0195AB6625478485F* L_0 = ___0_value;
+		__this->___m_OnStateChanged = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_OnStateChanged), (void*)L_0);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_set_targetCamera_m98885EABBA6E5C0EF1EEA95D4EFA66D124D9A558 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*CullingGroup_set_targetCamera_m98885EABBA6E5C0EF1EEA95D4EFA66D124D9A558_ftn) (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7*, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*);
@@ -16897,6 +17126,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CullingGroup_QueryIndices_m5975C5B54F
 	int32_t icallRetVal = _il2cpp_icall_func(__this, ___0_visible, ___1_distanceIndex, ___2_options, ___3_result, ___4_firstIndex);
 	return icallRetVal;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CullingGroup_IsVisible_m0E6E77465274E60F01A15A120ED9B335B5EFE807 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	typedef bool (*CullingGroup_IsVisible_m0E6E77465274E60F01A15A120ED9B335B5EFE807_ftn) (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7*, int32_t);
+	static CullingGroup_IsVisible_m0E6E77465274E60F01A15A120ED9B335B5EFE807_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CullingGroup_IsVisible_m0E6E77465274E60F01A15A120ED9B335B5EFE807_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CullingGroup::IsVisible(System.Int32)");
+	bool icallRetVal = _il2cpp_icall_func(__this, ___0_index);
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetBoundingDistances_mBC99B7BF56D85B34C0BBFF638686B75288D1011F (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_distances, const RuntimeMethod* method) 
 {
 	typedef void (*CullingGroup_SetBoundingDistances_mBC99B7BF56D85B34C0BBFF638686B75288D1011F_ftn) (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7*, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*);
@@ -16912,11 +17150,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_I
 		return;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_InternalTransform_mCE4FD49D66D371600E49D055CB805AB05D06A953 (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) 
+{
+	typedef void (*CullingGroup_SetDistanceReferencePoint_InternalTransform_mCE4FD49D66D371600E49D055CB805AB05D06A953_ftn) (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*);
+	static CullingGroup_SetDistanceReferencePoint_InternalTransform_mCE4FD49D66D371600E49D055CB805AB05D06A953_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (CullingGroup_SetDistanceReferencePoint_InternalTransform_mCE4FD49D66D371600E49D055CB805AB05D06A953_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.CullingGroup::SetDistanceReferencePoint_InternalTransform(UnityEngine.Transform)");
+	_il2cpp_icall_func(__this, ___0_transform);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_mDC369C67297A4350739CFF01740ADF89E866692E (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_point, const RuntimeMethod* method) 
 {
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_point;
 		CullingGroup_SetDistanceReferencePoint_InternalVector3_mD2EAE0296E56F8A769C694B0F6F39BDA3F302E0F(__this, L_0, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CullingGroup_SetDistanceReferencePoint_mC334C6AE89395B0CAE318657FF1D2E2E47A3EABA (CullingGroup_t0732D3CC044BAE2BE39748CBF5D96DDB6DBF62E7* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_transform, const RuntimeMethod* method) 
+{
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_transform;
+		CullingGroup_SetDistanceReferencePoint_InternalTransform_mCE4FD49D66D371600E49D055CB805AB05D06A953(__this, L_0, NULL);
 		return;
 	}
 }

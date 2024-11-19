@@ -16,8 +16,6 @@ buildscript {
 apply plugin: 'com.android.library'
 apply plugin: 'org.jetbrains.kotlin.android'
 apply plugin: 'maven-publish'
-
-
 android {
     ndkPath "/Applications/Unity/Hub/Editor/2022.3.16f1/PlaybackEngines/AndroidPlayer/NDK"
     namespace 'com.unity3d.player'
@@ -50,6 +48,10 @@ android {
     }
 
     packagingOptions {
+        pickFirst 'META-INF/*.kotlin_module'
+        pickFirst 'META-INF/LICENSE'
+        pickFirst 'META-INF/LICENSE.txt'
+        pickFirst 'META-INF/NOTICE'
         doNotStrip '*/armeabi-v7a/*.so'
         doNotStrip '*/arm64-v8a/*.so'
     }
@@ -66,20 +68,20 @@ java {
     sourceCompatibility = JavaVersion.VERSION_17            // << --- ADD This
     targetCompatibility = JavaVersion.VERSION_17
 }
+
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'])
+     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation(project(":SmileNativeShareModule"))
+    //  implementation(name: 'Smile_Native_Share', ext:'aar')
 
 }
 
-
 def getSdkDir() {
-    def sdkDir = System.getenv('ANDROID_SDK_ROOT')
-    if (sdkDir == null) {
-        Properties local = new Properties()
-        local.load(new FileInputStream("${rootDir}/local.properties"))
-        sdkDir = local.getProperty('sdk.dir') // Replace with actual SDK path
-    }
-    return sdkDir
+    Properties local = new Properties()
+    local.load(new FileInputStream("${rootDir}/local.properties"))
+    return local.getProperty('sdk.dir')
 }
 
 def BuildIl2Cpp(String workingDir, String configuration, String architecture, String abi, String[] staticLibraries) {
@@ -141,9 +143,9 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.NarsunOrg'
             artifactId = 'com-narsun-saudiMetaverseUnity'
-            version = "v1.1.4"
+            version = "v1.1.5"
             pom {
-                description = 'third release'
+                description = 'fifth release'
             }
         }
     }
@@ -151,4 +153,8 @@ publishing {
         mavenLocal()
     }
 }
+
+
+
+
 

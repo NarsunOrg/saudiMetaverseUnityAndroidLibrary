@@ -16743,7 +16743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UMARecipe_RemoveDna_m7B7ACDF1DC024F38856
 		Type_t* L_0 = ___0_type;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_0);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_1, NULL);
@@ -16783,7 +16783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UMADnaBase_tE1585EDA77E296F30879C4F48A9D68C65
 		Type_t* L_1 = ___0_type;
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_1);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_2, NULL);
@@ -16855,7 +16855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UMADnaBase_tE1585EDA77E296F30879C4F48A9D68C65
 		Type_t* L_0 = ___0_type;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_0);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_2;
 		L_2 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_1, NULL);
@@ -18608,7 +18608,7 @@ IL_0060_1:
 				L_21 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_20, NULL);
 				NullCheck(L_21);
 				String_t* L_22;
-				L_22 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_21);
+				L_22 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_21);
 				int32_t L_23;
 				L_23 = KeyValuePair_2_get_Key_m9B791BFCA670DF38BB87F05826053EBC0CE8D52C_inline((&V_1), KeyValuePair_2_get_Key_m9B791BFCA670DF38BB87F05826053EBC0CE8D52C_RuntimeMethod_var);
 				V_4 = L_23;
@@ -18778,7 +18778,7 @@ IL_0060_1:
 				L_21 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_20, NULL);
 				NullCheck(L_21);
 				String_t* L_22;
-				L_22 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_21);
+				L_22 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_21);
 				int32_t L_23;
 				L_23 = KeyValuePair_2_get_Key_m9B791BFCA670DF38BB87F05826053EBC0CE8D52C_inline((&V_1), KeyValuePair_2_get_Key_m9B791BFCA670DF38BB87F05826053EBC0CE8D52C_RuntimeMethod_var);
 				V_4 = L_23;
@@ -22898,7 +22898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UMADnaBase_get_DNATypeHash_m500AD4481
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_1);
 		il2cpp_codegen_runtime_class_init_inline(UMAUtils_t276FB42747FC310E2ECD05021B8B1749990034D9_il2cpp_TypeInfo_var);
 		int32_t L_3;
 		L_3 = UMAUtils_StringToHash_mC795864B590815805BA7BE4D371139DD96D0E684(L_2, NULL);

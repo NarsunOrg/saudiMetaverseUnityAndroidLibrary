@@ -18598,7 +18598,7 @@ IL_000a:
 		L_5 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_4, NULL);
 		NullCheck(L_1);
 		bool L_6;
-		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_1, L_5);
+		L_6 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_1, L_5);
 		if (!L_6)
 		{
 			goto IL_0035;
@@ -19067,7 +19067,7 @@ IL_003e:
 		Type_t* L_10 = ___0_pluginType;
 		NullCheck(L_10);
 		String_t* L_11;
-		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_10);
+		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_10);
 		NullCheck(L_11);
 		String_t* L_12;
 		L_12 = String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166(L_11, _stringLiteralF0F632B3C468CBA5C695B7E2D2A021FBA1824B07, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -19457,7 +19457,7 @@ IL_000f:
 		Type_t* L_4 = ___0_type;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22, L_3, L_4);
 		return L_5;
 	}
 }
@@ -19518,7 +19518,7 @@ IL_0015:
 			Assembly_t* L_9 = V_3;
 			NullCheck(L_9);
 			TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_10;
-			L_10 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(15, L_9);
+			L_10 = VirtualFuncInvoker0< TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* >::Invoke(17, L_9);
 			V_4 = L_10;
 			V_5 = 0;
 			goto IL_0056_1;
@@ -23098,7 +23098,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UMAAssetIndexer_AddType_mB62B6932A0C766B
 		Type_t* L_0 = ___0_sType;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_0);
 		V_0 = L_1;
 		String_t* L_2 = V_0;
 		bool L_3;
@@ -23140,7 +23140,7 @@ IL_0011:
 		Type_t* L_15 = ___0_sType;
 		NullCheck(L_15);
 		String_t* L_16;
-		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_15);
+		L_16 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_15);
 		NullCheck(L_14);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_14, L_16, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		UMAAssetIndexer_BuildStringTypes_mCF79E8E2B6EB2C28AF90B3E0E6D7ADEA6F575F1F(__this, NULL);
@@ -23168,7 +23168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UMAAssetIndexer_RemoveType_mF25324723B68
 		Type_t* L_0 = ___0_sType;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_0);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_0);
 		V_0 = L_1;
 		String_t* L_2 = V_0;
 		bool L_3;
@@ -23216,7 +23216,7 @@ IL_0011:
 		Type_t* L_19 = ___0_sType;
 		NullCheck(L_19);
 		String_t* L_20;
-		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(24, L_19);
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(25, L_19);
 		NullCheck(L_18);
 		bool L_21;
 		L_21 = List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D(L_18, L_20, List_1_Remove_mD9E8CFB6777A99046B3C0195F7343FE771A2E99D_RuntimeMethod_var);
@@ -25695,7 +25695,7 @@ IL_009f_1:
 			L_31 = AssetItem_get__Type_m0B324E6E988EFC4C934F46EC0EB96BCF0E817C9E(L_30, NULL);
 			NullCheck(L_31);
 			String_t* L_32;
-			L_32 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_31);
+			L_32 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_31);
 			String_t* L_33;
 			L_33 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_32, _stringLiteral2D16114520C70D16836C72EC0C48D233D809628D, NULL);
 			NullCheck(L_33);
@@ -26826,7 +26826,7 @@ IL_000e:
 		Type_t* L_6 = V_1;
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(7, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(8, L_6);
 		Type_t* L_8 = V_1;
 		NullCheck(L_5);
 		Dictionary_2_Add_m71BE3D798D6EC6F9B3BEF764C46AA0E005F49887(L_5, L_7, L_8, Dictionary_2_Add_m71BE3D798D6EC6F9B3BEF764C46AA0E005F49887_RuntimeMethod_var);
