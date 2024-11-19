@@ -1,3 +1,5 @@
+import com.android.build.gradle.tasks.MergeResources
+
 //1. Add below line
 //===============================
 buildscript {
@@ -73,10 +75,12 @@ dependencies {
     //implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'])
      implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "androidx.appcompat:appcompat:1.6.1"
-    implementation(project(":SmileNativeShareModule"))
+    //implementation(project(":SmileNativeShareModule"))
     //  implementation(name: 'Smile_Native_Share', ext:'aar')
 
 }
+
+
 
 def getSdkDir() {
     Properties local = new Properties()
@@ -143,7 +147,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.NarsunOrg'
             artifactId = 'com-narsun-saudiMetaverseUnity'
-            version = "v1.1.5"
+            version = "v1.1.4"
             pom {
                 description = 'fifth release'
             }

@@ -7,7 +7,9 @@
   <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
   <application android:extractNativeLibs="true">
-    <provider android:name="androidx.core.content.FileProvider" android:authorities="com.SmileSoft.unityplugin.saudimetaverse" android:exported="false" android:grantUriPermissions="true">
+    <provider android:name="androidx.core.content.FileProvider"
+        android:authorities="com.SmileSoft.unityplugin.saudimetaverse"
+        android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths" />
     </provider>
     <meta-data android:name="unity.splash-mode" android:value="0" />

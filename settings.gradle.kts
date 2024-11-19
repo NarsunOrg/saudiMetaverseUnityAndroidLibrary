@@ -21,5 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "saudiMetaverseUnityAndroidLibrary"
 include(":app", ":saudiMetaverseUnity")
-include(":SmileNativeShareModule")
-project(":SmileNativeShareModule").projectDir = File(rootDir, "Smile_Native_Share")
