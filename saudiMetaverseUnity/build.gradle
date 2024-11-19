@@ -147,7 +147,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.NarsunOrg'
             artifactId = 'com-narsun-saudiMetaverseUnity'
-            version = "v1.1.4"
+            version = "v1.1.1"
             pom {
                 description = 'fifth release'
             }

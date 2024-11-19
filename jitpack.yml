@@ -8,6 +8,6 @@ install:
   - git lfs install
   - git lfs pull
   #- ./gradlew clean build
-  - FILE="-Dfile=com-narsun-saudiMetaverseUnityV4.aar" #visitsudi.aar
-  - mvn install:install-file $FILE -DgroupId=com.github.NarsunOrg -DartifactId=com-narsun-saudiMetaverseUnityV4 -Dversion=v1.1.4 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=com-narsun-saudiMetaverseUnityV1.aar" #visitsudi.aar
+  - mvn install:install-file $FILE -DgroupId=com.github.NarsunOrg -DartifactId=com-narsun-saudiMetaverseUnityV1 -Dversion=v1.1.1 -Dpackaging=aar -DgeneratePom=true
   #com.mriaz764                      #com-narsun-saudiMetaverseUnity  #1.1

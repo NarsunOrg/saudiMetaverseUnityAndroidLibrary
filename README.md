@@ -13,7 +13,7 @@ Make sure the Android device is connected and USB Debugging is enabled.
 
 ```kotlin
 dependencies {
-    implementation("com.github.NarsunOrg:saudiMetaverseUnityAndroidLibrary:latest-version")//i.e v1.1.4
+    implementation("com.github.NarsunOrg:saudiMetaverseUnityAndroidLibrary:latest-version")//i.e v1.1.1
 }
 ```
 2. In `/app/build.gradle`, ensure your `minSdkVersion` is at least 22:
@@ -95,7 +95,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("com.github.NarsunOrg:saudiMetaverseUnityAndroidLibrary:v1.1.4")
+    implementation("com.github.NarsunOrg:saudiMetaverseUnityAndroidLibrary:v1.1.1")
 }
 
 ```
